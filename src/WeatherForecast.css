@@ -1,0 +1,13 @@
+.WeatherForecast{
+    position: absolute;
+    left: 20%;
+    top: 78%;
+    transform: translate(-50%, -50%);
+}
+.WeatherTemperature-min{
+    opacity: 0.6;
+    margin-left: 2px;
+}
+.WeatherForecast .WeatherForecast-icon {
+    transform: scale(0.7);
+}

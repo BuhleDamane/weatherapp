@@ -4,7 +4,7 @@ import './Weather.css';
 import WeatherInfo from "./WeatherInfo";
 import { Circles } from 'react-loader-spinner';
 import { FaSearch } from 'react-icons/fa';
-
+import WeatherForecast from "./WeatherForecast.js";
 
 export default function Weather(props) {
     const [city, setCity] = useState(props.defaultCity);
@@ -56,14 +56,19 @@ export default function Weather(props) {
         if (searchActive) {
             resetTimer();
         }
-    }, [searchActive]);
+
+       
+        return () => {
+            if (timer) clearTimeout(timer);
+        };
+    }, [searchActive, resetTimer]);
 
     if (weatherData.ready) {
         return (
             <div className="Weather">
                 {!searchActive && (
                     <div className="search-icon" onClick={handleSearchClick}>
-                        <FaSearch icon={FaSearch} size="2x" />
+                        <FaSearch size="2x" />
                     </div>
                 )}
                 {searchActive && (
@@ -85,6 +90,7 @@ export default function Weather(props) {
                     </form>
                 )}
                 <WeatherInfo data={weatherData} />
+                <WeatherForecast />
             </div>
         );
     } else {
