@@ -1,0 +1,23 @@
+.date{
+    color: rgb(201, 37, 64);
+    font-weight: 700;
+}
+.formatted-date{
+    font-size: 15px;
+    margin-top: -30px;
+}
+.formatted-date {
+    position: relative;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.formatted-date.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.formatted-date.fade-out {
+    opacity: 0;
+}
