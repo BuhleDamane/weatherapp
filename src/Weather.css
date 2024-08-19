@@ -1,23 +1,31 @@
+
 .Weather{
-    border: 2px solid #dadde1;
+    border: 3px solid #dadde1;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     width: 30%;
-    height: 80vh;
+    height: 85vh;
     margin: 20px auto;
     padding: 50px 50px;
     margin-top: 50px;
     color: #878787;
     color: rgb(135, 135, 135);
     border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(7px);
 }
 .Weather h1{
     line-height: 29px;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 100;
     text-align: left;
     margin: 20px 0 0 0;
     margin-top: 130px;
     text-align: center;
+    font-weight: 600;
+    color: #fff;
 }
 .lol{
     text-align: left;
@@ -48,11 +56,26 @@
     font-size: 16px;
     line-height: 85px;
     margin-left: -50px;
+    font-weight: 600;
+    color: #fff;
 }
- .text-capitalize {
+ .description {
+    font-size: 20px;
+   align-items: center;
+   margin: 0 auto;
+   color: rgb(201, 37, 64);
+   font-weight: 600;
+}
+.WeatherTemperature{
+    color: #fff;
+    font-weight: 550;
+}
+.WeatherTemperature a{
+color:  rgb(201, 37, 64);;
+}
+.text-capitalize{
     text-align: center;
     margin-top: -15px;
-   font-size: 50px;
 }
 .WeatherIcon{
     float: left;
@@ -60,20 +83,20 @@
     height: 40%;
     line-height: 120px;
     margin-left: 50px;
-    transform: scale(1.4);
+    transform: scale(1.3);
 }
 .search-icon{
     position: absolute;
     width: 30px;
-    left: 60%;
+    left: 85%;
     top: 20%;
     transform: translate(-50%, -50%);
-    color: #0d6efd;
+    color: #fff;
 }
 form{
     position: absolute;
     left: 50%;
-    top: 13%;
+    top: 10%;
     transform: translate(-50%, -50%);
     margin-bottom: 200px;
     margin-top: 60px;
@@ -94,7 +117,12 @@ form{
 }
 .conditions{
     position: absolute;
-    top: 55%;
-    left: 49%;
+    top: 57%;
+    left: 47%;
     transform: translate(-50%, -50%);
+    color: #fff;
+    
+}
+.humidity{
+    margin-bottom: 5px;
 }
