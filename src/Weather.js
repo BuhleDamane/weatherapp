@@ -100,7 +100,7 @@ export default function Weather(props) {
                 <Circles
                     height="80"
                     width="80"
-                    color="#4fa94d"
+                    color="rgb(201, 37, 64)"
                     ariaLabel="circles-loading"
                     visible={true}
                 />

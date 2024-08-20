@@ -1,6 +1,6 @@
 import './App.css';
 import Weather from "./Weather.js"
-import Images from "./Images/Day2.jpg";
+import Images from "./Images/Night.jpg";
 function App() {
   return (
     <div className="App">
