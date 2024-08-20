@@ -80,8 +80,7 @@ color:  rgb(201, 37, 64);;
 .WeatherIcon{
     float: left;
     width: 40%;
-    height: 40%;
-    line-height: 120px;
+    margin-top: 30px;
     margin-left: 50px;
     transform: scale(1.3);
 }

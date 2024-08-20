@@ -1,15 +1,20 @@
-.WeatherForecast{
-    position: absolute;
-    left: 25%;
-    top: 78%;
-    transform: translate(-50%, -50%);
+.WeatherForecast-day{
+    color: #fff;
+    margin-top: 120px;
+}
+.WeatherForecast-temperature{
+   line-height: 0px;
+}
+.WeatherTemperature-max{
+    color: #fff;
 }
 .WeatherTemperature-min{
     opacity: 0.6;
-    margin-left: 2px;
+ color: #fff;
 }
-.WeatherForecast .WeatherForecast-icon {
-    transform: scale(0.6);
 
-    margin-top: 50px;
+.WeatherForecast .WeatherForecast-icon{
+    transform: scale(0.6);
+    margin-left: -50px;
+
 }
