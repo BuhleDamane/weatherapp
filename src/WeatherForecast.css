@@ -1,6 +1,6 @@
 .WeatherForecast{
     position: absolute;
-    left: 20%;
+    left: 25%;
     top: 78%;
     transform: translate(-50%, -50%);
 }
@@ -10,6 +10,6 @@
 }
 .WeatherForecast .WeatherForecast-icon {
     transform: scale(0.6);
-    margin-left: 100px;
+
     margin-top: 50px;
 }
