@@ -14,7 +14,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
 }
 .Weather h1{
     line-height: 29px;
@@ -124,5 +124,5 @@ form{
     
 }
 .humidity{
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
