@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import './Weather.css';
 import WeatherInfo from "./WeatherInfo";
@@ -10,7 +10,7 @@ export default function Weather(props) {
     const [city, setCity] = useState(props.defaultCity);
     const [weatherData, setWeatherData] = useState({ ready: false });
     const [searchActive, setSearchActive] = useState(false);
-    const [timer, setTimer] = useState(null);
+    const timer = useRef(null); // Use useRef instead of useState for the timer
 
     function handleResponse(response) {
         setWeatherData({
@@ -46,10 +46,10 @@ export default function Weather(props) {
     }
 
     function resetTimer() {
-        if (timer) clearTimeout(timer);
-        setTimer(setTimeout(() => {
+        if (timer.current) clearTimeout(timer.current);
+        timer.current = setTimeout(() => {
             setSearchActive(false);
-        }, 15000));
+        }, 15000);
     }
 
     useEffect(() => {
@@ -57,11 +57,10 @@ export default function Weather(props) {
             resetTimer();
         }
 
-       
         return () => {
-            if (timer) clearTimeout(timer);
+            if (timer.current) clearTimeout(timer.current);
         };
-    }, [searchActive, resetTimer]);
+    }, [searchActive]);
 
     if (weatherData.ready) {
         return (
