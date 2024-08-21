@@ -116,7 +116,7 @@ form{
 }
 .conditions{
     position: absolute;
-    top: 57%;
+    top: 70%;
     left: 47%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -194,7 +194,7 @@ form{
        margin: 0 auto;
        color: rgb(201, 37, 64);
        font-weight: 600;
-       margin-bottom: 30px;
+       margin-bottom: 100px;
     }
     .WeatherTemperature{
         color: #fff;
