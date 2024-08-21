@@ -18,3 +18,135 @@
     margin-left: -50px;
 
 }
+
+@media (max-width: 575.98px) {
+    .WeatherForecast-day{
+        color: #fff;
+        margin-top: 90px;
+    }
+    .WeatherForecast-temperature{
+       line-height: 0px;
+    }
+    .WeatherTemperature-max{
+        color: #fff;
+    }
+    .WeatherTemperature-min{
+        opacity: 0.6;
+     color: #fff;
+    }
+    
+    .WeatherForecast .WeatherForecast-icon{
+        transform: scale(0.6);
+        margin-left: -50px;
+    
+    }
+    
+  }
+  
+ 
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .WeatherForecast-day{
+        color: #fff;
+        margin-top: 60px;
+    }
+    .WeatherForecast-temperature{
+       line-height: 0px;
+       margin-top: 10px;
+    }
+    .WeatherTemperature-max{
+        color: #fff;
+    }
+    .WeatherTemperature-min{
+        opacity: 0.6;
+     color: #fff;
+    }
+    
+    .WeatherForecast .WeatherForecast-icon{
+        transform: scale(0.6);
+        margin-left: -50px;
+    
+    }
+    
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .WeatherForecast-day{
+        color: #fff;
+        margin-top: 70px;
+    }
+    .WeatherForecast-temperature{
+       line-height: 0px;
+       margin-top: 10px;
+    }
+    .WeatherTemperature-max{
+        color: #fff;
+    }
+    .WeatherTemperature-min{
+        opacity: 0.6;
+     color: #fff;
+    }
+    
+    .WeatherForecast .WeatherForecast-icon{
+        transform: scale(0.6);
+        margin-left: -50px;
+    
+    }
+    
+  }
+  
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .WeatherForecast-day{
+        color: #fff;
+        margin-top: 70px;
+    }
+    .WeatherForecast-temperature{
+       line-height: 0px;
+       margin-top: 10px;
+    }
+    .WeatherTemperature-max{
+        color: #fff;
+    }
+    .WeatherTemperature-min{
+        opacity: 0.6;
+     color: #fff;
+    }
+    
+    .WeatherForecast .WeatherForecast-icon{
+        transform: scale(0.6);
+        margin-left: -50px;
+    
+    }
+  }
+  
+  
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .WeatherForecast-day{
+        color: #fff;
+        margin-top: 65px;
+    }
+    .WeatherForecast-temperature{
+       line-height: 0px;
+       margin-top: 10px;
+    }
+    .WeatherTemperature-max{
+        color: #fff;
+    }
+    .WeatherTemperature-min{
+        opacity: 0.6;
+     color: #fff;
+    }
+    
+    .WeatherForecast .WeatherForecast-icon{
+        transform: scale(0.6);
+        margin-left: -50px;
+    
+    }
+  }
+  
+  
+  @media (min-width: 1400px) {
+    
+  }
+  
