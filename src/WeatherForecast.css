@@ -22,7 +22,7 @@
 @media (max-width: 575.98px) {
     .WeatherForecast-day{
         color: #fff;
-        margin-top: 200px;
+        margin-top: 30px;
     }
     .WeatherForecast-temperature{
        line-height: 0px;
