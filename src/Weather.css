@@ -131,7 +131,7 @@ form{
         border: 3px solid #dadde1;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
         width: 90%;
-        height: 80vh;
+        height: 83vh;
         margin: 20px auto;
         padding: 50px 50px;
         margin-top: 50px;
@@ -249,7 +249,7 @@ form{
     }
     .conditions{
         position: absolute;
-        top: 62%;
+        top: 63%;
         left: 47%;
         transform: translate(-50%, -50%);
         color: #fff;
