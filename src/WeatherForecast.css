@@ -19,10 +19,10 @@
 
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     .WeatherForecast-day{
         color: #fff;
-        margin-top: 30px;
+        margin-top: 90px;
     }
     .WeatherForecast-temperature{
        line-height: 0px;
