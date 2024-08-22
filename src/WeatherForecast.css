@@ -18,6 +18,31 @@
     margin-left: -50px;
 
 }
+@media only screen and (max-width: 319px) {
+    .WeatherForecast-day{
+        color: #fff;
+        margin-top: 90px;
+    }
+    .WeatherForecast-temperature{
+       line-height: 0px;
+    }
+    .WeatherTemperature-max{
+        color: #fff;
+    }
+    .WeatherTemperature-min{
+        opacity: 0.6;
+     color: #fff;
+    }
+    
+    .WeatherForecast .WeatherForecast-icon{
+        transform: scale(0.6);
+        margin-left: -50px;
+    
+    }
+  }
+  
+
+  
 
 @media (max-width: 576px) {
     .WeatherForecast-day{

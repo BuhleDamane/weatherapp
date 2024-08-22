@@ -103,11 +103,12 @@ img{
     text-decoration: 0;
   }
   footer{
-    font-size: 11px;
+    font-size: 10px;
     margin: 0;
     position: absolute;
     top: 95%;
-    left: 45%;
+    left: 50%;
+    flex-wrap: nowrap;
     transform: translate(-50%, -50%);
     color: rgb(201, 37, 64);
     font-weight: 550;
